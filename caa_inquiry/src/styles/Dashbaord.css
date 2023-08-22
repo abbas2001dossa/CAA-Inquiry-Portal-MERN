@@ -1,0 +1,76 @@
+.dimension{
+    height:450px;
+    background-color:  rgba(59, 82, 55, 0.781);
+    border-radius: 10px;
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5);
+    
+      
+}
+
+.sidepanel{
+    border: 2px solid black;
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5);
+    
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #000000; /* Gray color for the scrollbar thumb */
+    border-radius: 20px; /* Set border-radius to half of the width to make it circular */
+    transition: background 0.2s ease-in-out; /* Smooth transition on hover */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #efefef; /* Darker color on hover for the scrollbar thumb */
+  }
+
+  .blockOfDetail{
+    overflow-y: scroll;
+    height: 342px;
+}
+
+
+.detail{
+    height: 50px;
+    width: 500px;
+    
+    margin-top:30px;
+    margin-bottom: 5px;
+    
+
+    
+}
+
+.detail:hover{
+    background-color: rgb(252, 252, 252);
+}
+
+.detail button{
+    text-shadow: 2px 2px 4px rgba(237, 236, 236, 0.5);     
+    font-weight: bold;
+    align-items: left;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);     
+      
+}
+
+
+.custom-icon{
+    font-size: 24px;
+    margin-right:10px;
+    
+}

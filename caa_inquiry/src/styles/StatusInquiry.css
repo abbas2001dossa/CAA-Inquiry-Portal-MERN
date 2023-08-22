@@ -1,0 +1,292 @@
+.dim{
+    height: 100px;
+    width:300px;
+    margin-left: 250px;
+    margin-top: 190px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+
+#inquiry{
+    height: 200px;
+    
+    margin-left: 100px;
+    margin-top: 50px;
+   
+   
+}
+
+#inquiry .dropdowns{
+    width:600px; 
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#inquiry select{
+    width: 160px;
+    border-radius: 10px;
+}
+
+#inquiry input , .Enroute .top input {
+    width: 160px;
+    border-radius: 10px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 17px;
+}
+
+#btnInquiry{
+    margin-top: 15px;
+    margin-left: 600px;
+}
+
+#BoiConstitutionDate , #SubmissionDate ,#LatestSubmissionDate,#CompletionDate{
+    width: 300px;
+    height: 150px;
+}
+
+.displayContainer{
+    width:600px; 
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    height: 200px;
+    background-color: white;
+    margin-top: 60px;
+    overflow-y: scroll;
+
+}
+
+
+.torDim{
+    /* width:800px;  */
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    height: 380px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.Enroute .top {
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    height: 100px;
+    background-color: white;
+    margin-top: 20px;
+    width: 500px;
+    margin-left: 150px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #000000; /* Gray color for the scrollbar thumb */
+    border-radius: 20px; /* Set border-radius to half of the width to make it circular */
+    transition: background 0.2s ease-in-out; /* Smooth transition on hover */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: grey; /* Darker color on hover for the scrollbar thumb */
+  }
+
+
+
+
+
+.custom-select{
+    width: 230px;
+    margin: 20px;
+}
+
+
+#File h5{
+    margin-left: 15px;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.l h5 ,.Enroute .top h5,.reminderBottom h5,.reminderTop h5,#torNumber h5,#FileRcvDate h5,#ComplianceLetterIssueDate h5 ,#CompletionDate h5,#ReForwardingDate h5,#DecisionDate h5, #ForwardingDate h5 ,#BoiConstitutionDate h5 , #SubmissionDate h5,#LatestSubmissionDate h5{
+    margin-left: 15px;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    justify-content: center;
+}
+#Remarks div,#DcRecommendation div{
+    margin-top: 50px;
+}
+#File input,.reminderTop input , .reminderBottom input,#ReForwardingDate input,#FileRcvDate input ,#ComplianceLetterIssueDate input ,#torNumber input,#DecisionDate input ,#CompletionDate input,#ForwardingDate input , #BoiConstitutionDate input ,#SubmissionDate input ,#LatestSubmissionDate input{
+    border: 2px solid black;
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.l textarea{
+    border: 2px solid black;
+    margin-left: 100px;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 300px;
+    height: 200px;
+}
+
+.l{
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 100px;
+    height: 300px;
+}
+
+#Filebtn,#b,#Reminderbtn,#InquiryIdbtn,#ComplianceLetterIssueDatebtn ,#FileRcvDatebtn,#ReForwardingDatebtn,#DecisionDatebtn{
+    margin-left: 700px;
+    margin-top: 100px; 
+}
+
+#BoiConstitutionDatebtn,#DcRecommendationbtn,#Remarksbtn,#ForwardingDatebtn,#SubmissionDatebtn,#CompletionDatebtn ,#LatestSubmissionDatebtn{
+    margin-left: 700px;
+    margin-top: 50px;
+}
+
+#Subjbtn{
+    margin-left: 700px;
+    margin-top:0px;
+}
+
+
+
+#inquiry{
+    width: 400px;
+}
+
+
+#filteredData{
+    /* margin-left: 30px; */
+    justify-content: center;
+    text-align: center;
+
+}
+
+#filteredData div {
+    border-bottom: 1px solid black ; 
+}
+
+#filteredData div:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+
+
+/* tors */
+
+.TorRow .row button {
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bolder;
+
+
+}
+
+.TorRow .first input {
+    width: 500px;
+    border-radius: 15px;
+    border: 2px solid black;
+
+}
+
+.TorRow .row textarea{
+    width: 500px;
+    border-radius: 15px;
+    border: 2px solid black;
+    height: 85px;
+}
+
+.torDetails .row .col button{
+    margin-left: 40px;
+}
+
+/* enroute */
+
+
+.separation{
+    /* text-align: center;
+    justify-content: center; */
+    
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 2px dashed black ;
+    margin: 5px;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+#Enroutebtn{
+    /* width: ; */
+    margin-left: 600px;
+}
+
+.Enroute .top input{
+    margin-left: 100px;
+}
+
+.Enroute .top button {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bolder;
+    margin-top: 17px;
+    margin-left: 100px;
+}
+
+.Enroute .bottom {
+    margin-left: 150px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    height: 200px;
+    background-color: white;
+    margin-top: 50px;
+    width: 500px;
+    overflow-y: scroll;
+}
+
+/*  Reminder  */
+
+.reminderTop{
+    margin-left: 150px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    height: 90px;
+    background-color: white;
+    margin-top: 50px;
+    width: 300px;
+    
+}
+
+.reminderBottom{
+    margin-left: 150px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    height: 90px;
+    background-color: white;
+    margin-top: 50px;
+    width: 300px;
+    
+}
